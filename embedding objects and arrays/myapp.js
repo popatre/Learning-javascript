@@ -8,7 +8,6 @@ var computer = {
       "8gb",
        ]
 
-
 };
 
 
@@ -20,4 +19,15 @@ function upgrade() {
 
 }
 
-console.log  ( upgrade () );
+console.log  ( computer.make);
+
+
+function name (marker) {
+
+ return marker.first + marker.second;
+}
+
+console.log (
+  name( {first:"dora",
+      second: "Colq"
+    }));
